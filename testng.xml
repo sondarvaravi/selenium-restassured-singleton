@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SeleniumRestAssuredSuite" verbose="1">
+
+    <test name="UITests">
+        <classes>
+            <class name="com.example.ui.GoogleSearchTest"/>
+        </classes>
+    </test>
+
+    <test name="ApiTests">
+        <classes>
+            <class name="com.example.api.GetPostApiTest"/>
+            <class name="com.example.api.CreatePostApiTest"/>
+        </classes>
+    </test>
+
+</suite>
